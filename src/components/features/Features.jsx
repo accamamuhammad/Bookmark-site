@@ -3,7 +3,6 @@ import { useState } from "react";
 import FeaturesCSS from "../features/Features.module.css";
 
 const Features = () => {
-  const [activeTab, setActiveTab] = useState(false);
   const [tabOne, setTabOne] = useState(true);
   const [tabTwo, setTabTwo] = useState(false);
   const [tabThree, setTabThree] = useState(false);

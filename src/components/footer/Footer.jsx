@@ -10,8 +10,14 @@ const Footer = () => {
           <li>contact</li>
         </ul>
         <div className={FooterCSS.socialLinks}>
-          <img src="/images/icon-facebook.svg" alt="footer-facebook-icon" />
-          <img src="/images/icon-twitter.svg" alt="footer-twitter-icon" />
+          <img
+            src="/public/images/icon-facebook.svg"
+            alt="footer-facebook-icon"
+          />
+          <img
+            src="/public/images/icon-twitter.svg"
+            alt="footer-twitter-icon"
+          />
         </div>
       </div>
       <div className={FooterCSS.BuiltBy}>

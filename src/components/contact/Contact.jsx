@@ -18,7 +18,7 @@ const Contact = () => {
     <div className={ContactCSS.contactContainer}>
       <form onSubmit={handleSubmit}>
         <h4>35,000+ already joined</h4>
-        <h1>Stay up-to-date with what we're doing</h1>
+        <h1>Stay up-to-date with what were doing</h1>
         <div>
           <input
             type="email"

@@ -62,7 +62,7 @@ const Question = () => {
           >
             <h4>{data[0].title}</h4>
             <img
-              src="/images/icon-arrow.svg"
+              src="/public/images/icon-arrow.svg"
               alt="arrow"
               className={`${
                 moreInfo1 ? QuestionCSS.rotateState : QuestionCSS.normalState
@@ -85,7 +85,7 @@ const Question = () => {
           >
             <h4>{data[1].title}</h4>
             <img
-              src="/images/icon-arrow.svg"
+              src="/public/images/icon-arrow.svg"
               alt="arrow"
               className={`${
                 moreInfo2 ? QuestionCSS.rotateState : QuestionCSS.normalState
@@ -108,7 +108,7 @@ const Question = () => {
           >
             <h4>{data[2].title}</h4>
             <img
-              src="/images/icon-arrow.svg"
+              src="/public/images/icon-arrow.svg"
               alt="arrow"
               className={`${
                 moreInfo3 ? QuestionCSS.rotateState : QuestionCSS.normalState
@@ -131,7 +131,7 @@ const Question = () => {
           >
             <h4>{data[3].title}</h4>
             <img
-              src="/images/icon-arrow.svg"
+              src="/public/images/icon-arrow.svg"
               alt="arrow"
               className={`${
                 moreInfo4 ? QuestionCSS.rotateState : QuestionCSS.normalState

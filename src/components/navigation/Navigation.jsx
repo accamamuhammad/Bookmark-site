@@ -11,7 +11,7 @@ const Navigation = () => {
   return (
     <nav className={`${menuToggle ? NavCSS.normalOpen : NavCSS.DarkOpen}`}>
       <div className="logo">
-        <img src="/images/Screenshot 2024-02-29 at 1.24.05 PM.png" alt="logo" />
+        <img src="/public/images/LogoIcon.png" alt="logo" />
         <p>Bookmark</p>
       </div>
       <ul
@@ -28,7 +28,7 @@ const Navigation = () => {
         <div className={NavCSS.line} />
         <button className={NavCSS.button}>LOGIN</button>
         <div className={NavCSS.navSocial}>
-          <img src="/images/icon-facebook.svg" alt="facebook-icon" />
+          <img src="/public/images/icon-facebook.svg" alt="facebook-icon" />
           <img src="/images/icon-twitter.svg" alt="twitter-icon" />
         </div>
       </ul>
@@ -36,8 +36,8 @@ const Navigation = () => {
         <img
           src={
             menuToggle
-              ? "/images/icons8-menu-50.png"
-              : "/images/icon-hamburger.svg"
+              ? "/public/images/icons8-menu-50.png"
+              : "/public/images/icon-hamburger.svg"
           }
           alt="menu-icon"
         />

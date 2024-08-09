@@ -15,7 +15,10 @@ const Hero = () => {
         </div>
       </div>
       <div className={HeroCSS.HeroImage}>
-        <img src="/images/illustration-hero.svg" alt="hero-illustration" />
+        <img
+          src="/public/images/illustration-hero.svg"
+          alt="hero-illustration"
+        />
         <div className={HeroCSS.heroImageBg}></div>
       </div>
     </main>
