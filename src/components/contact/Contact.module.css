@@ -1,0 +1,103 @@
+/** Contact styling */
+.contactContainer {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: rgb(86, 102, 216);
+}
+form {
+  width: 425px;
+  row-gap: 38px;
+  display: flex;
+  padding: 50px 0;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+form > h4,
+form > h1 {
+  color: white;
+  text-align: center;
+}
+form > h4 {
+  letter-spacing: 3.5px;
+  font-family: "Rubik-regular";
+}
+form > h1 {
+  font-size: 2.2rem;
+  font-family: "Rubik-medium";
+}
+form > div {
+  width: 100%;
+  display: flex;
+  column-gap: 15px;
+  align-items: center;
+  flex-direction: row;
+}
+form > div > input {
+  width: 68%;
+  height: 48px;
+  border: none;
+  font-size: 0.95rem;
+  padding-left: 10px;
+  border-radius: 5px;
+  color: rgb(4, 7, 27);
+  background-color: white;
+  font-family: "Rubik-regular";
+}
+form > div > input::placeholder {
+  font-size: 0.9rem;
+  font-family: "Rubik-regular";
+}
+form > div > button {
+  width: 32%;
+  height: 48px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  font-family: "Rubik-regular";
+  background-color: rgb(232, 100, 95);
+}
+@media (max-width: 450px) {
+  form > h1 {
+    font-size: 1.8rem;
+  }
+  form > h4 {
+    font-size: 0.9rem;
+  }
+  form > div {
+    width: 100%;
+    row-gap: 15px;
+    column-gap: 0;
+    flex-direction: column;
+  }
+  form > div > input {
+    width: 88%;
+    padding-left: 10px;
+  }
+  form > div > button {
+    width: 88%;
+  }
+}
+@media (max-width: 280px) {
+  form > h1 {
+    margin: 0 5px;
+    font-size: 1rem;
+  }
+  form > h4 {
+    margin: 0 5px;
+    font-size: 0.7rem;
+  }
+  form > div > input {
+    height: 45px;
+  }
+  form > div > input::placeholder {
+    font-size: 0.7rem;
+  }
+  form > div > button {
+    height: 45px;
+  }
+}
